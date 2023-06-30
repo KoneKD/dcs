@@ -54,8 +54,8 @@ export  function ItemCard ({ item, card }) {
       
       <>
         {/* card  */}
-        <Box height={["20vh","20vh","20vh","40vh","40vh"]}
-          width={{ base: "30%", md: "30%" }} marginBottom={40} mr={5} borderRadius={50}>
+        <Box height={["20vh","20vh","20vh","20vh","20vh"]}
+          width={{ base: "30%", md: "10%" }} marginBottom={40} mr={5} borderRadius={50}>
         <Link
           height={"15vh"}
           width={{ base: "80%", md: "30%" }}
@@ -192,10 +192,10 @@ export function ContainerCard({ card }) {
             alignItems={"center"}
             justifyContent={"space-between"}
           >
-             <AccordionItem   height={"auto"}
+             <Box   height={"auto"}
             width={"100%"}>
     
-      <AccordionButton>
+   
       <Heading
               height={"auto"}
               id={card.id}
@@ -207,10 +207,9 @@ export function ContainerCard({ card }) {
               {card.id}
              
             </Heading>
-        <AccordionIcon />
-      </AccordionButton>
+       
    
-    <AccordionPanel pb={4}>
+   
     <Flex
             height={"auto"}
             width={"100%"}
@@ -227,8 +226,8 @@ export function ContainerCard({ card }) {
             ))
             }
           </Flex>
-    </AccordionPanel>
-  </AccordionItem>
+    
+  </Box>
            
             {/* <Link
                           href={card.link}
