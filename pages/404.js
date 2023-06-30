@@ -370,7 +370,7 @@ export default function Carousel() {
               w={"150px"}
               _hover={{ textDecoration: "none", bgColor: "#006C47" }}
             >
-              VOIR PLUS
+              VOIR PLUS     
             </Button> */}
             {/* <Flex
               mr={10}
