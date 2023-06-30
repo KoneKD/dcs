@@ -1,3 +1,5 @@
+import InputBar from '@/components/InputBar';
+import Navbar from '@/components/Navbar';
 import {
     Box,
     Button,
@@ -15,6 +17,7 @@ import {
     Tooltip,
     useClipboard,
     useColorModeValue,
+    useMediaQuery,
     VStack,
   } from '@chakra-ui/react';
   import React from 'react';
@@ -38,14 +41,18 @@ import {
   
   export default function ContactFormWithSocialButtons() {
     const { hasCopied, onCopy } = useClipboard('example@example.com');
-  
+    const [isLagerThan768] = useMediaQuery("(min-width: 768px)");
     return (
+      <>
+      <InputBar />
+        {isLagerThan768 ? <Navbar></Navbar> : <></>}
+   
       <Flex
         bg={useColorModeValue('gray.100', 'gray.900')}
         align="center"
         justify="center"
         height={"90vh"}
-        mt={10}
+        
         css={{
           backgroundImage: useColorModeValue(CONFETTI_LIGHT, CONFETTI_DARK),
           backgroundAttachment: 'fixed',
@@ -193,5 +200,6 @@ import {
           </Box>
         </Box>
       </Flex>
+      </>
     );
   }
