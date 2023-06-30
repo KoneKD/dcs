@@ -365,7 +365,7 @@ export default function Carousel() {
               as={Link}
               href={"#fade"}
               bgColor={"#08566E"}
-              color={"white"}
+              color={"white"} 
               mb={5}  
               w={"150px"}
               _hover={{ textDecoration: "none", bgColor: "#006C47" }}
