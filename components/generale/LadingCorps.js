@@ -59,8 +59,8 @@ export  function ItemCard ({ item, card }) {
         <Link
           height={"15vh"}
           width={{ base: "80%", md: "30%" }}
-          mt={"5"}
-          mb={10}
+          mt={"5"} 
+          mb={10} 
           onClick={()=>sessionStorage.setItem("savefrom",numero)}
           mr={{ base: "0%", md: "0%" }}
           _hover={{ textDecoration: "none" }}
