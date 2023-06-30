@@ -331,13 +331,13 @@ export default function Carousel() {
                 href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
               />
 
-              <Flex
+              {/* <Flex
                 mr={10}
                 fontSize={"1rem"}
                 display={{ base: "none", md: "flex" }}
                 onClick={onToggle}
                 href={"#fade"}
-              >
+              > */}
                 {/* <Button
                   display={{ base: "none", md: "grid" }}
                   onClick={onToggle}
@@ -353,11 +353,11 @@ export default function Carousel() {
                 >
                   VOIR PLUS
                 </Button> */}
-                Voir Plus <ChevronRightIcon h={6} />
-              </Flex>
+                {/* Voir Plus <ChevronRightIcon h={6} />
+              </Flex> */}
             </SimpleGrid>
           </Flex>
-          <Center>
+          {/* <Center> */}
             {" "}
             {/* <Button
               display={{ base: "grid", md: "none" }}
@@ -372,13 +372,13 @@ export default function Carousel() {
             >
               VOIR PLUS
             </Button> */}
-            <Flex
+            {/* <Flex
               mr={10}
               fontSize={"1rem"}
               display={{ base: "flex", md: "none" }}
               onClick={onToggle}
               href={"#fade"}
-            >
+            > */}
               {/* <Button
                   display={{ base: "none", md: "grid" }}
                   onClick={onToggle}
@@ -394,9 +394,9 @@ export default function Carousel() {
                 >
                   VOIR PLUS
                 </Button> */}
-              Voir Plus <ChevronRightIcon h={6} />
+              {/* Voir Plus <ChevronRightIcon h={6} />
             </Flex>
-          </Center>
+          </Center> */}
           <Box
             position={"relative"}
             height={"fit-content"}
@@ -755,13 +755,13 @@ export default function Carousel() {
                 href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
               />
 
-              <Flex
+              {/* <Flex
                 mr={10}
                 fontSize={"1rem"}
                 display={{ base: "none", md: "flex" }}
                 onClick={onToggle}
                 href={"#fade"}
-              >
+              > */}
                 {/* <Button
                   display={{ base: "none", md: "grid" }}
                   onClick={onToggle}
@@ -777,11 +777,11 @@ export default function Carousel() {
                 >
                   VOIR PLUS
                 </Button> */}
-                Voir Plus <ChevronRightIcon h={6} />
-              </Flex>
+                {/* Voir Plus <ChevronRightIcon h={6} />
+              </Flex> */}
             </SimpleGrid>
           </Flex>
-          <Center>
+          {/* <Center> */}
             {" "}
             {/* <Button
               display={{ base: "grid", md: "none" }}
@@ -796,13 +796,13 @@ export default function Carousel() {
             >
               VOIR PLUS
             </Button> */}
-            <Flex
+            {/* <Flex
               mr={10}
               fontSize={"1rem"}
               display={{ base: "flex", md: "none" }}
               onClick={onToggle}
               href={"#fade"}
-            >
+            > */}
               {/* <Button
                   display={{ base: "none", md: "grid" }}
                   onClick={onToggle}
@@ -818,9 +818,9 @@ export default function Carousel() {
                 >
                   VOIR PLUS
                 </Button> */}
-              Voir Plus <ChevronRightIcon h={6} />
-            </Flex>
-          </Center>
+              {/* Voir Plus <ChevronRightIcon h={6} />
+            </Flex> */}
+          {/* </Center> */}
           <Box
             position={"relative"}
             height={"fit-content"}
@@ -1260,13 +1260,13 @@ export default function Carousel() {
                 href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
               />
 
-              <Flex
+              {/* <Flex
                 mr={10}
                 fontSize={"1rem"}
                 display={{ base: "none", md: "flex" }}
                 onClick={onToggle}
                 href={"#fade"}
-              >
+              > */}
                 {/* <Button
                   display={{ base: "none", md: "grid" }}
                   onClick={onToggle}
@@ -1282,11 +1282,11 @@ export default function Carousel() {
                 >
                   VOIR PLUS
                 </Button>  */}
-                Voir Plus <ChevronRightIcon h={6} />
-              </Flex>
+                {/* Voir Plus <ChevronRightIcon h={6} />
+              </Flex> */}
             </SimpleGrid>
           </Flex>
-          <Center>
+          {/* <Center> */}
             {" "}
             {/* <Button
               display={{ base: "grid", md: "none" }}
@@ -1301,13 +1301,13 @@ export default function Carousel() {
             >
               VOIR PLUS
             </Button> */}
-            <Flex
+            {/* <Flex
               mr={10}
               fontSize={"1rem"}
               display={{ base: "flex", md: "none" }}
               onClick={onToggle}
               href={"#fade"}
-            >
+            > */}
               {/* <Button
                   display={{ base: "none", md: "grid" }}
                   onClick={onToggle}
@@ -1323,9 +1323,9 @@ export default function Carousel() {
                 >
                   VOIR PLUS
                 </Button> */}
-              Voir Plus <ChevronRightIcon h={6} />
+              {/* Voir Plus <ChevronRightIcon h={6} />
             </Flex>
-          </Center>
+          </Center> */}
           <Box
             position={"relative"}
             height={"fit-content"}
